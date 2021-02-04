@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <S:Header>
+        <messageHeader xmlns="http://schemas.telecom.co.nz/esb/CustomerBillingInquiry/retrieveCustomerAccountTransactionHistory/V2/msg">
+            <application>ONLINE</application>
+            <user>DASL</user>
+            <transactionId>ONL9123954068786151887338890890032219750</transactionId>
+            <lineOfBusiness>Spark</lineOfBusiness>
+            <timeStamp>2020-07-14T11:37:50.354+12:00</timeStamp>
+            <processContext>BPM8-21404</processContext>
+        </messageHeader>
+    </S:Header>
+    <S:Body>
+        <retrieveCustAcctTransactionHistoryV2Request xmlns="http://schemas.telecom.co.nz/esb/CustomerBillingInquiry/retrieveCustomerAccountTransactionHistory/V2/msg">
+            <custAcc>
+                <Id>${custAccId}</Id>
+            </custAcc>
+            <serviceOptions>
+                <timePeriod>
+                    <startDateTime>2020-03-14T00:00:00.000+13:00</startDateTime>
+                    <endDateTime>2020-07-15T00:00:00.000+12:00</endDateTime>
+                </timePeriod>
+                <balanceMgmt>${balanceMgmt}</balanceMgmt>
+            </serviceOptions>
+            <accountTxn>
+                <transactionType>${ADJUSTMENT}</transactionType>
+                <transactionType>CHARGE</transactionType>
+                <transactionType>PAYMENT</transactionType>
+                <lineNumber>0210649071</lineNumber>
+                <prepaidAccountActivity>true</prepaidAccountActivity>
+            </accountTxn>
+            <paging>
+                <howMany>20</howMany>
+            </paging>
+        </retrieveCustAcctTransactionHistoryV2Request>
+    </S:Body>
+</S:Envelope>

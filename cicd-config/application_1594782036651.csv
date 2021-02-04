@@ -1,0 +1,571 @@
+Module_Name,Change_type,Key,state,Change_Comment
+cpm-retrieve-v1,,,,
+,Environment,XMX,Target,-Xmx256m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx512m -Xms306m Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net Dappdynamics.http.proxyPort8080 Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,MEM_REQ,Target,256Mi
+,Resource,MEM_REQ,Source,700Mi
+,Resource,MEM_LIMIT,Target,768Mi
+,Resource,MEM_LIMIT,Source,968Mi
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+,Resource,Release,Target,hotfix-incident-inc001652051-60386
+,Resource,Release,Source,release-21-1-173272
+spam-manage-v1,,,,
+,Environment,XMX,Target,Dmail.imap.starttls.enableTRUE -Dappdynamics.http.proxyHostappdprd.telecom.tcnz.net
+,Environment,XMX,Source,-Xms242m -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+vvm-manage-v1,,,,
+,Resource,APP,Source,vvm-manage-v1
+,Resource,CPU_LIMIT,Source,400m
+,Resource,XMX,Source,-Dlog4j.configurationFilefile:/etc/config/log/log4j2.xml -Xmx256m -Xms256m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,MEM_REQ,Source,256Mi
+,Resource,MEM_LIMIT,Source,650Mi
+,Resource,CPU_REQ,Source,100m
+,Resource,Count,Source,1
+,Resource,ENV,Source,NFT
+,Resource,Release,Source,release-21-1-166332
+colm-manage-v1,,,,
+,Environment,XMX,Target,-Xmx384m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx562m -Xms562m -Dappagent.start.timeout3 -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+,Resource,Release,Target,release-20-10-163480
+,Resource,Release,Source,release-21-1-173305
+cust-billmng-v1,,,,
+,Environment,XMX,Target,Dappdynamics.http.proxyHostappdprd.telecom.tcnz.net
+,Environment,XMX,Source,Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+,Resource,Release,Target,release-20-10-168434
+,Resource,Release,Source,release-20-10-160714
+cust-fulfil-volte-v1,,,,
+,Environment,XMX,Target,-Xmx128m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx178m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,CPU_LIMIT,Target,300m
+,Resource,CPU_LIMIT,Source,250m
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+,Resource,Release,Target,release-20-5-a-96561
+,Resource,Release,Source,release-20-4-57876
+spom-manage-v1,,,,
+,Environment,XMX,Target,-Xmx320m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx370m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+,Resource,Release,Target,release-20-10-161958
+,Resource,Release,Source,release-21-1-181608
+csm-manage-v1,,,,
+,Environment,XMX,Target,-Xmx256m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx312m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,MEM_LIMIT,Target,650Mi
+,Resource,MEM_LIMIT,Source,850Mi
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+pay-manage-v1,,,,
+,Environment,XMX,Target,-Xmx128m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx434m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,CPU_LIMIT,Target,200m
+,Resource,CPU_LIMIT,Source,500m
+,Resource,MEM_REQ,Target,256Mi
+,Resource,MEM_REQ,Source,512Mi
+,Resource,MEM_LIMIT,Target,512Mi
+,Resource,MEM_LIMIT,Source,830Mi
+,Resource,CPU_REQ,Target,100m
+,Resource,CPU_REQ,Source,300m
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+,Resource,Release,Target,release-20-1-49942
+,Resource,Release,Source,release-20-9-141026
+cpm-manage-v1,,,,
+,Environment,XMX,Target,-Xmx128m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx178m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+pay-manage-v2,,,,
+,Environment,XMX,Target,-Xmx128m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx512m -Xms512m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,CPU_LIMIT,Target,400m
+,Resource,CPU_LIMIT,Source,800m
+,Resource,MEM_REQ,Target,256Mi
+,Resource,MEM_REQ,Source,830Mi
+,Resource,MEM_LIMIT,Target,512Mi
+,Resource,MEM_LIMIT,Source,1Gi
+,Resource,CPU_REQ,Target,100m
+,Resource,CPU_REQ,Source,500m
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+cic-notification-v1,,,,
+,Environment,XMX,Target,-Xmx320m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx370m -Dappagent.start.timeout3 -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+,Resource,Release,Target,release-20-3-56623
+,Resource,Release,Source,release-21-1-173219
+pcm-manage-v1,,,,
+,Environment,XMX,Target,Dappdynamics.http.proxyHostappdprd.telecom.tcnz.net
+,Environment,XMX,Source,Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+res-manage-v1,,,,
+,Environment,XMX,Target,-Xmx384m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx306m -Xms306m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,MEM_LIMIT,Target,850Mi
+,Resource,MEM_LIMIT,Source,1Gi
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+cust-opsmng-v1,,,,
+,Environment,XMX,Target,-Xmx128m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx178m -Xms178m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,CPU_LIMIT,Target,500m
+,Resource,CPU_LIMIT,Source,400m
+,Resource,MEM_LIMIT,Target,1Gi
+,Resource,MEM_LIMIT,Source,700Mi
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+coe-avail-v1,,,,
+,Environment,XMX,Target,-Xmx128m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx178m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+spot-lfcapptmt-v1,,,,
+,Environment,XMX,Target,-Xmx128m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx178m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+,Resource,Release,Target,release-20-6-a-82345
+,Resource,Release,Source,release-20-4-68162
+res-retrieve-v1,,,,
+,Resource,APP,Target,res-retrieve-v1
+,Resource,CPU_LIMIT,Target,200m
+,Resource,XMX,Target,-Dlog4j.configurationFilefile:/etc/config/log/log4j2.xml -Xmx128m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Resource,MEM_REQ,Target,256Mi
+,Resource,MEM_LIMIT,Target,512Mi
+,Resource,CPU_REQ,Target,100m
+,Resource,Count,Target,1
+,Resource,ENV,Target,PROD
+,Resource,Release,Target,release-20-4-68690
+rim-simmng-stub-v1,,,,
+,Resource,APP,Source,rim-simmng-stub-v1
+,Resource,CPU_LIMIT,Source,200m
+,Resource,XMX,Source,-Dlog4j.configurationFilefile:/etc/config/log/log4j2.xml
+,Resource,MEM_REQ,Source,256Mi
+,Resource,MEM_LIMIT,Source,512Mi
+,Resource,CPU_REQ,Source,100m
+,Resource,Count,Source,1
+,Resource,ENV,Source,NFT
+,Resource,Release,Source,master-36761
+com-manage-v1,,,,
+,Environment,XMX,Target,-Xmx386m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx436m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,MEM_LIMIT,Target,1Gi
+,Resource,MEM_LIMIT,Source,1224Mi
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+,Resource,Release,Target,release-20-10-168581
+,Resource,Release,Source,release-21-1-181592
+scm-manage-v1,,,,
+,Environment,XMX,Target,Dappdynamics.http.proxyHostappdprd.telecom.tcnz.net
+,Environment,XMX,Source,Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net
+,Resource,MEM_LIMIT,Target,700Mi
+,Resource,MEM_LIMIT,Source,550Mi
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+sim-manage-v1,,,,
+,Environment,XMX,Target,-Xmx128m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx178m -Xms178m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,CPU_LIMIT,Target,400m
+,Resource,CPU_LIMIT,Source,500m
+,Resource,MEM_LIMIT,Target,512Mi
+,Resource,MEM_LIMIT,Source,800Mi
+,Resource,CPU_REQ,Target,100m
+,Resource,CPU_REQ,Source,200m
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+,Resource,Release,Target,release-20-7-106542
+,Resource,Release,Source,release-21-1-167560
+spom-enroll-v1,,,,
+,Environment,XMX,Target,-Xmx128m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx178m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+bem-manage-v1,,,,
+,Environment,XMX,Target,-Xmx256m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx306m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+rim-manage-v1,,,,
+,Environment,XMX,Target,-Xmx384m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx434m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,MEM_LIMIT,Target,1Gi
+,Resource,MEM_LIMIT,Source,1100Mi
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+,Resource,Release,Target,release-20-10-160081
+,Resource,Release,Source,release-21-1-166543
+sclm-manage-v1,,,,
+,Environment,XMX,Target,-Xmx256m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx512m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,CPU_LIMIT,Target,200m
+,Resource,CPU_LIMIT,Source,400m
+,Resource,MEM_LIMIT,Target,512Mi
+,Resource,MEM_LIMIT,Source,1Gi
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+csb-usagesumm-v1,,,,
+,Environment,XMX,Target,Dappdynamics.http.proxyHostappdprd.telecom.tcnz.net
+,Environment,XMX,Source,-Xms178m -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+cim-hpcsync-v1,,,,
+,Environment,XMX,Target,-Xmx128m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx512m -Xms512m -Dappagent.start.timeout3 -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,CPU_LIMIT,Target,200m
+,Resource,CPU_LIMIT,Source,800m
+,Resource,MEM_REQ,Target,256Mi
+,Resource,MEM_REQ,Source,830Mi
+,Resource,MEM_LIMIT,Target,512Mi
+,Resource,MEM_LIMIT,Source,1Gi
+,Resource,CPU_REQ,Target,100m
+,Resource,CPU_REQ,Source,500m
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+,Resource,Release,Target,release-20-5-175917
+,Resource,Release,Source,release-20-5-69911
+bam-hpcsync-v1,,,,
+,Environment,XMX,Target,-Xmx128m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx178m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+,Resource,Release,Target,release-19-9-42824
+,Resource,Release,Source,19-9-154228
+intg-dbpoll-v1,,,,
+,Environment,XMX,Target,-Xmx640m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx690m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+spop-lfcaccessutil-v1,,,,
+,Environment,XMX,Target,-Xmx128m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx178m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+csfm-manage-v1,,,,
+,Environment,XMX,Target,-Xmx128m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx306m -Xms178m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,MEM_LIMIT,Target,650Mi
+,Resource,MEM_LIMIT,Source,700Mi
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+spof-lfcaccess-v1,,,,
+,Environment,XMX,Target,-Xmx128m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx178m -Xms178m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,MEM_LIMIT,Target,800Mi
+,Resource,MEM_LIMIT,Source,850Mi
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+,Resource,Release,Target,release-20-6-a-82341
+,Resource,Release,Source,release-20-2-63779
+ccbm-manage-v1,,,,
+,Environment,XMX,Target,-Xmx256m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx306m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+coe-feas-v1,,,,
+,Environment,XMX,Target,-Xmx128m -XX:+UnlockDiagnosticVMOptions -XX:NativeMemoryTrackingdetail -XX:+PrintNMTStatistics -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx178m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdprd.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,MEM_LIMIT,Target,650Mi
+,Resource,MEM_LIMIT,Source,850Mi
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+csb-retrieve-v1,,,,
+,Environment,XMX,Target,-agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,MEM_LIMIT,Target,800Mi
+,Resource,MEM_LIMIT,Source,1Gi
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+,Resource,Release,Target,20-10-169348
+,Resource,Release,Source,21-1-174671
+rim-simmng-v1,,,,
+,Environment,XMX,Target,-Xmx128m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx306m -Dappagent.start.timeout3 -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,MEM_REQ,Target,356Mi
+,Resource,MEM_REQ,Source,256Mi
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+stub-integration-v1,,,,
+,Resource,APP,Source,stub-integration-v1
+,Resource,CPU_LIMIT,Source,400m
+,Resource,XMX,Source,-Dlog4j.configurationFilefile:/etc/config/log/log4j2.xml -Xmx818m -Xms818m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,MEM_REQ,Source,256Mi
+,Resource,MEM_LIMIT,Source,1Gi
+,Resource,CPU_REQ,Source,100m
+,Resource,Count,Source,1
+,Resource,ENV,Source,NFT
+,Resource,Release,Source,master-173739
+cpdi-proact-v1,,,,
+,Environment,XMX,Target,Dappdynamics.http.proxyHostappdprd.telecom.tcnz.net
+,Environment,XMX,Source,Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+pcm-manage-es-v1,,,,
+,Environment,XMX,Target,-Xmx128m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx178m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,CPU_LIMIT,Target,200m
+,Resource,CPU_LIMIT,Source,300m
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+rim-manage-es-v1,,,,
+,Environment,XMX,Target,Dappdynamics.http.proxyHostappdprd.telecom.tcnz.net
+,Environment,XMX,Source,-Xms178m -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net
+,Resource,MEM_REQ,Target,512Mi
+,Resource,MEM_REQ,Source,256Mi
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+ccm-manage-v1,,,,
+,Environment,XMX,Target,-Xmx800m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx850m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,MEM_REQ,Target,256Mi
+,Resource,MEM_REQ,Source,1Gi
+,Resource,MEM_LIMIT,Target,1536Mi
+,Resource,MEM_LIMIT,Source,2Gi
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+,Resource,Release,Target,release-20-10-151562
+,Resource,Release,Source,release-21-1-181607
+cim-manage-v1,,,,
+,Environment,XMX,Target,Dappdynamics.http.proxyHostappdprd.telecom.tcnz.net
+,Environment,XMX,Source,Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+som-manage-v1,,,,
+,Environment,XMX,Target,Dappdynamics.http.proxyHostappdprd.telecom.tcnz.net
+,Environment,XMX,Source,Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+,Resource,Release,Target,release-20-9-175920
+,Resource,Release,Source,release-20-9-154360
+cust-billingbal-v1,,,,
+,Environment,XMX,Target,-Xmx384m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx434m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+casm-manage-v1,,,,
+,Environment,XMX,Target,Dappdynamics.http.proxyHostappdprd.telecom.tcnz.net
+,Environment,XMX,Source,-Xms178m -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+csm-retrieve-v1,,,,
+,Environment,XMX,Target,Dappdynamics.agent.log4j2.disabledTRUE -Dappdynamics.http.proxyHostappdprd.telecom.tcnz.net
+,Environment,XMX,Source,-Xms512m -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net
+,Resource,MEM_LIMIT,Target,750Mi
+,Resource,MEM_LIMIT,Source,1Gi
+,Resource,CPU_REQ,Target,400m
+,Resource,CPU_REQ,Source,100m
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+spop-lfcaccess-v1,,,,
+,Environment,XMX,Target,-Xmx128m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx178m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,CPU_REQ,Target,100m
+,Resource,CPU_REQ,Source,200m
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+,Resource,Release,Target,release-20-6-a-82329
+,Resource,Release,Source,release-20-1-50787
+vchm-manage-v1,,,,
+,Environment,XMX,Target,-Xmx768m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx818m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,MEM_LIMIT,Target,750Mi
+,Resource,MEM_LIMIT,Source,900Mi
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+cust-fulfil-v1,,,,
+,Environment,XMX,Target,Dappdynamics.http.proxyHostappdprd.telecom.tcnz.net
+,Environment,XMX,Source,Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+spot-lfcaccess-v1,,,,
+,Environment,XMX,Target,-Xmx256m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx306m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+cust-fulfil-v2,,,,
+,Environment,XMX,Target,-agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+callback-util-v1,,,,
+,Environment,XMX,Target,-Xmx128m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx178m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+,Resource,Release,Target,release-20-6-95762
+,Resource,Release,Source,release-20-4-68827
+wfsm-manage-v1,,,,
+,Environment,XMX,Target,Dappdynamics.http.proxyHostappdprd.telecom.tcnz.net
+,Environment,XMX,Source,-Xms430m -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net
+,Resource,MEM_LIMIT,Target,700Mi
+,Resource,MEM_LIMIT,Source,650Mi
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+csm-ahsync-v1,,,,
+,Environment,XMX,Target,-Xmx128m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx178m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,CPU_REQ,Target,100m
+,Resource,CPU_REQ,Source,200m
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+,Resource,Release,Target,release-20-10-175916
+,Resource,Release,Source,release-20-10-153925
+hrm-manage-v1,,,,
+,Environment,XMX,Target,-Xmx128m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx434m -Xms434m -XX:MetaspaceSize150m -XX:MaxMetaspaceSize150m -XX:ErrorFile/sharedFiles/AppServerAgent/ver20.4.0.29862/logs/hs_err_pid<pid>.log -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout100000 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,CPU_LIMIT,Target,256m
+,Resource,CPU_LIMIT,Source,1
+,Resource,MEM_REQ,Target,256Mi
+,Resource,MEM_REQ,Source,586Mi
+,Resource,MEM_LIMIT,Target,512Mi
+,Resource,MEM_LIMIT,Source,800Mi
+,Resource,CPU_REQ,Target,100m
+,Resource,CPU_REQ,Source,800m
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+,Resource,Release,Target,release-20-4-175923
+,Resource,Release,Source,release-20-4-71750
+wib-manage-v1,,,,
+,Environment,XMX,Target,-Xmx128m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx818m -Xms818m -Dappagent.start.timeout3 -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,MEM_REQ,Target,256Mi
+,Resource,MEM_REQ,Source,818Mi
+,Resource,MEM_LIMIT,Target,512Mi
+,Resource,MEM_LIMIT,Source,1256Mi
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+nim-manage-v1,,,,
+,Environment,XMX,Target,Dappdynamics.http.proxyHostappdprd.telecom.tcnz.net
+,Environment,XMX,Source,-Xms178m -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+bam-manage-v1,,,,
+,Environment,XMX,Target,-Xmx128m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx178m -Xms178m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+,Resource,Release,Target,release-20-10-168472
+,Resource,Release,Source,release-21-1-168500
+cam-manage-v1,,,,
+,Environment,XMX,Target,-Xmx128m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx178m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+,Resource,Release,Target,release-20-9-1-157180
+,Resource,Release,Source,release-20-9-148985
+vas-manage-v1,,,,
+,Environment,XMX,Target,-Xmx384m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx818m -Xms818m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+,Resource,Release,Target,release-20-10-167152
+,Resource,Release,Source,release-21-1-174353
+binq-bill-v1,,,,
+,Environment,XMX,Target,Dappdynamics.http.proxyHostappdprd.telecom.tcnz.net
+,Environment,XMX,Source,-Xms178m -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net
+,Resource,MEM_LIMIT,Target,750Mi
+,Resource,MEM_LIMIT,Source,650Mi
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+csb-usage-v1,,,,
+,Environment,XMX,Target,-agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xms178m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+binq-retrieve-v1,,,,
+,Environment,XMX,Target,-Xmx128m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx178m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,CPU_LIMIT,Target,200m
+,Resource,CPU_LIMIT,Source,400m
+,Resource,MEM_LIMIT,Target,512Mi
+,Resource,MEM_LIMIT,Source,600Mi
+,Resource,CPU_REQ,Target,100m
+,Resource,CPU_REQ,Source,200m
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+sm-manage-v1,,,,
+,Environment,XMX,Target,-Xmx128m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx178m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,CPU_LIMIT,Target,250m
+,Resource,CPU_LIMIT,Source,400m
+,Resource,MEM_LIMIT,Target,512Mi
+,Resource,MEM_LIMIT,Source,650Mi
+,Resource,CPU_REQ,Target,100m
+,Resource,CPU_REQ,Source,200m
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+spot-lfcnotif-v1,,,,
+,Environment,XMX,Target,-Xmx384m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx562m -Xms562m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+,Resource,Release,Target,release-20-7-175921
+,Resource,Release,Source,release-20-7-135440
+cpm-retrieve-v2,,,,
+,Environment,XMX,Target,-Xmx128m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx178m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+ws-scm-manage-v1,,,,
+,Environment,XMX,Target,-Xmx128m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx178m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+cic-manage-v1,,,,
+,Environment,XMX,Target,Dappdynamics.http.proxyHostappdprd.telecom.tcnz.net
+,Environment,XMX,Source,-Xms370m -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+scm-mngsvc-v1,,,,
+,Environment,XMX,Target,Dappdynamics.http.proxyHostappdprd.telecom.tcnz.net
+,Environment,XMX,Source,-Xms306m -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+,Resource,Release,Target,20-10-172059
+,Resource,Release,Source,20-10-158295
+bam-retrieve-v1,,,,
+,Environment,XMX,Target,-Xmx128m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx178m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+csb-manage-v1,,,,
+,Resource,APP,Source,csb-manage-v1
+,Resource,CPU_LIMIT,Source,400m
+,Resource,XMX,Source,-Dlog4j.configurationFilefile:/etc/config/log/log4j2.xml -Xmx128m
+,Resource,MEM_REQ,Source,256Mi
+,Resource,MEM_LIMIT,Source,650Mi
+,Resource,CPU_REQ,Source,100m
+,Resource,Count,Source,1
+,Resource,ENV,Source,NFT
+,Resource,Release,Source,release-21-1-177598
+lom-manage-v1,,,,
+,Environment,XMX,Target,-Xmx256m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx306m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+,Resource,Release,Target,hotfix-inc002082682-159847
+,Resource,Release,Source,release-20-9-140537
+cust-billinq-v1,,,,
+,Environment,XMX,Target,-Xmx192m -agentpath:/srv/dynatrace/agent/lib64/libdtagent.so
+,Environment,XMX,Source,-Xmx242m -Dappdynamics.jvm.shutdown.mark.node.as.historicaltrue -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net -Dappdynamics.http.proxyPort8080 -Dappagent.start.timeout3 -javaagent:/sharedFiles/AppServerAgent/javaagent.jar
+,Resource,CPU_REQ,Target,100m
+,Resource,CPU_REQ,Source,200m
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
+,Resource,Release,Target,release-20-10-a-175733
+,Resource,Release,Source,release-20-10-163312
+ws-com-manage-v1,,,,
+,Environment,XMX,Target,Dappdynamics.http.proxyHostappdprd.telecom.tcnz.net
+,Environment,XMX,Source,-Xms178m -Dappdynamics.http.proxyHostappdstg.telecom.tcnz.net
+,Resource,MEM_LIMIT,Target,650Mi
+,Resource,MEM_LIMIT,Source,600Mi
+,Resource,ENV,Target,PROD
+,Resource,ENV,Source,NFT
