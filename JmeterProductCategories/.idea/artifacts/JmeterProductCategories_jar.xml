@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JmeterProductCategories:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JmeterProductCategories_jar</output-path>
+    <root id="archive" name="JmeterProductCategories.jar">
+      <element id="module-output" name="JmeterProductCategories" />
+    </root>
+  </artifact>
+</component>
