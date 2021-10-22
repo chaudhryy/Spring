@@ -1,13 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0fbc5a7-ca13-48c1-978d-f555992961e5" name="Default Changelist" comment="" />
+    <list default="true" id="f0fbc5a7-ca13-48c1-978d-f555992961e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../api-util-v1/src/main/resources/jsd/collections/folder.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-util-v1/src/main/resources/jsd/collections/item.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-util-v1/src/main/resources/jsd/collections/postmanCollection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-util-v1/src/main/resources/jsd/postmanCollectionSchema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apic-fuse-util/.idea/azure/azureSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apic-fuse-util/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-util-v1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../api-util-v1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-util-v1/target/api-util-v1-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-util-v1/target/api-util-v1-1.0.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-util-v1/target/classes/HtmlTemlate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-util-v1/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-util-v1/target/classes/custom-banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-util-v1/target/classes/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-util-v1/target/classes/nz/co/spark/openshift/utility/mgmt/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-util-v1/target/classes/nz/co/spark/openshift/utility/mgmt/beans/ApiServiceThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-util-v1/target/classes/nz/co/spark/openshift/utility/mgmt/beans/CustomHttpsConfiguration$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-util-v1/target/classes/nz/co/spark/openshift/utility/mgmt/beans/CustomHttpsConfiguration$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-util-v1/target/classes/nz/co/spark/openshift/utility/mgmt/beans/CustomHttpsConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-util-v1/target/classes/nz/co/spark/openshift/utility/mgmt/beans/ReportManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-util-v1/target/classes/nz/co/spark/openshift/utility/mgmt/beans/RequestManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-util-v1/target/classes/nz/co/spark/openshift/utility/mgmt/beans/RuleManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-util-v1/target/classes/nz/co/spark/openshift/utility/mgmt/exceptions/ApiException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-util-v1/target/classes/nz/co/spark/openshift/utility/mgmt/model/EnviornmentEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-util-v1/target/classes/nz/co/spark/openshift/utility/mgmt/model/InputParameters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-util-v1/target/classes/nz/co/spark/openshift/utility/mgmt/model/re/RuleEngineConfigurations$UseCase$Rules$Rule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-util-v1/target/classes/nz/co/spark/openshift/utility/mgmt/model/re/RuleEngineConfigurations$UseCase$Rules.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-util-v1/target/classes/nz/co/spark/openshift/utility/mgmt/model/re/RuleEngineConfigurations$UseCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-util-v1/target/classes/nz/co/spark/openshift/utility/mgmt/model/re/RuleEngineConfigurations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-util-v1/target/classes/nz/co/spark/openshift/utility/mgmt/model/re/RuleRecord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-util-v1/target/classes/nz/co/spark/openshift/utility/mgmt/service/ApiAutomationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-util-v1/target/classes/samples/inputFile.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-util-v1/target/classes/samples/sampleRules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-util-v1/target/classes/samples/sampleRules_bk.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-util-v1/target/classes/samples/templates/sample1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-util-v1/target/classes/xsd/RuleEngineConfigurations.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-util-v1/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-util-v1/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-util-v1/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apic-fuse-util/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../apic-fuse-util/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="intg-int06/m-npe-ocp-internal-spark-co-nz:443/t827090" />
+    <option name="namespace" value="intg-int06" />
+  </component>
   <component name="ProjectId" id="1f6wLFcJD7WcLOb62lXBIsn7ToV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -18,11 +66,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ocp-release" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.capture" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -36,11 +85,12 @@
       <workItem from="1595551794111" duration="51000" />
       <workItem from="1596494741580" duration="76000" />
       <workItem from="1602212135077" duration="11000" />
+      <workItem from="1627007224563" duration="57000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="650" y="225" key="FileChooserDialogImpl" timestamp="1602212144813">

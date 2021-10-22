@@ -58,6 +58,44 @@
 
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.jsonschema2pojo</groupId>
+                <artifactId>jsonschema2pojo-maven-plugin</artifactId>
+                <version>1.0.2</version>
+                <executions>
+                    <execution>
+                        <id>1</id>
+                        <configuration>
+                            <annotationStyle>jackson2</annotationStyle>
+                            <includeAdditionalProperties>false</includeAdditionalProperties>
+                            <sourcePaths>
+<!--                                <path>${project.basedir}/src/main/resources/jsd/</path>-->
+                                <sourcePath>${project.basedir}/src/main/resources/jsd/collections/</sourcePath>
+                            </sourcePaths>
+                            <targetPackage>nz.co.spark.openshift.utility.mgmt.model.postman.collection</targetPackage>
+                        </configuration>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                    </execution>
+
+<!--                    <execution>-->
+<!--                        <id>2</id>-->
+<!--                        <configuration>-->
+<!--                            <annotationStyle>jackson2</annotationStyle>-->
+<!--                            <includeAdditionalProperties>false</includeAdditionalProperties>-->
+<!--                            <sourcePaths>-->
+<!--                                &lt;!&ndash;                                <path>${project.basedir}/src/main/resources/jsd/</path>&ndash;&gt;-->
+<!--                                <sourcePath>${project.basedir}/src/main/resources/jsd/postmanCollectionSchema.json</sourcePath>-->
+<!--                            </sourcePaths>-->
+<!--                            <targetPackage>nz.co.spark.openshift.utility.mgmt.model.postman.collection.definitions</targetPackage>-->
+<!--                        </configuration>-->
+<!--                        <goals>-->
+<!--                            <goal>generate</goal>-->
+<!--                        </goals>-->
+<!--                    </execution>-->
+                </executions>
+            </plugin>
             <!-- Package as an executable jar/war -->
 <!--            <plugin>-->
 <!--                <groupId>org.codehaus.mojo</groupId>-->
